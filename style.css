@@ -1,0 +1,134 @@
+/* one css for all page index.hmtl  , movie.html , fav.html */
+
+/* this is for body  */
+body {
+background-color:black;
+}
+
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+/* imdp log image  */
+.imdb-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+    border: 2px solid burlywood
+}
+
+/* search bar portion  */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    margin-right: 25px;
+    margin-top: 200px;
+}
+
+/* heart icon  */
+
+
+.fa-heart {
+    color: rgb(222, 0, 0);
+
+}
+
+/* search bar inner styling  */
+
+.inner-button {
+    color: black;
+    padding: 13px;
+    height: 18px;
+    width: 464px;
+    border-radius: 19px;
+    /* border-color: black; */
+    box-shadow: 5px 5px 10px rgb(239, 223, 49);
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+/* index.html ends here */
+
+ 
+
+
+/* css for fav movie html page  */
+
+#fav-movie {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+
+
+.card-title {
+    color: white;
+    text-align: justify;
+}
+
+
+/* common img size for all page   in inner html */
+.img-mov {
+    height: 200px;
+    width: 200px;
+}
+
+
+h1 {
+
+    text-align: center;
+    color: rgb(244, 244, 244);
+}
+
+
+
+
+
+/* for the  list of movie that showed when we search  */
+.searched-movie {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.container-movie{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* details styling  */
+
+
+.card-title{
+    color: rgba(226, 17, 2, 0.861);
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.card-text{
+    color: white;
+    border: 2px solid black;
+box-shadow: 5px 5px 10px rgb(87, 167, 145);
+
+
+}
